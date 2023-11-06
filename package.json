@@ -1,0 +1,29 @@
+{
+  "name": "stylelint-config-in2code",
+  "version": "1.0.0",
+  "description": "Stylelint config for in2code GmbH",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/in2code-de/stylelint-config-in2code.git"
+  },
+  "keywords": [
+    "stylelint",
+    "eslint-config",
+    "in2code"
+  ],
+  "author": "Felix Ranesberger <felix.ranesberger@in2code.de>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/in2code-de/stylelint-config-in2code/issues"
+  },
+  "homepage": "https://github.com/in2code-de/stylelint-config-in2code#readme",
+  "dependencies": {
+    "stylelint-config-standard-scss": "^11.1.0",
+    "stylelint-scss": "^5.3.0",
+    "stylelint-use-logical": "^2.1.0"
+  },
+  "peerDependencies": {
+    "stylelint": ">= 15"
+  }
+}
