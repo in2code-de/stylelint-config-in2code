@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-in2code",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Stylelint config for in2code GmbH",
   "main": "index.js",
   "repository": {
@@ -18,6 +18,9 @@
     "url": "https://github.com/in2code-de/stylelint-config-in2code/issues"
   },
   "homepage": "https://github.com/in2code-de/stylelint-config-in2code#readme",
+  "scripts": {
+    "release": "bumpp"
+  },
   "dependencies": {
     "stylelint-config-standard-scss": "^13.1.0",
     "stylelint-scss": "^6.2.1",
@@ -25,5 +28,8 @@
   },
   "peerDependencies": {
     "stylelint": ">= 16"
+  },
+  "devDependencies": {
+    "bumpp": "^9.4.1"
   }
 }
