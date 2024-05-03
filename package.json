@@ -19,11 +19,11 @@
   },
   "homepage": "https://github.com/in2code-de/stylelint-config-in2code#readme",
   "dependencies": {
-    "stylelint-config-standard-scss": "^11.1.0",
-    "stylelint-scss": "^5.3.0",
-    "stylelint-use-logical": "^2.1.0"
+    "stylelint-config-standard-scss": "^13.1.0",
+    "stylelint-scss": "^6.2.1",
+    "stylelint-use-logical": "^2.1.2"
   },
   "peerDependencies": {
-    "stylelint": ">= 15"
+    "stylelint": ">= 16"
   }
 }
