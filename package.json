@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-in2code",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Stylelint config for in2code GmbH",
   "main": "index.js",
   "repository": {
