@@ -21,15 +21,15 @@
   "scripts": {
     "release": "bumpp"
   },
-  "dependencies": {
-    "stylelint-config-standard-scss": "^13.1.0",
-    "stylelint-scss": "^6.2.1",
-    "stylelint-use-logical": "^2.1.2"
-  },
   "peerDependencies": {
     "stylelint": ">= 16"
   },
+  "dependencies": {
+    "stylelint-config-standard-scss": "^15.0.1",
+    "stylelint-scss": "^6.12.1",
+    "stylelint-use-logical": "^2.1.2"
+  },
   "devDependencies": {
-    "bumpp": "^9.4.1"
+    "bumpp": "^10.2.1"
   }
 }
