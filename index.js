@@ -17,7 +17,7 @@ module.exports = {
         'no-duplicate-at-import-rules': true,
         'selector-max-id': 0,
         'declaration-block-no-duplicate-properties': true,
-        'rule-empty-line-before': ['always-multi-line', { ignore: ['after-comment'] }],
+        'rule-empty-line-before': ['always-multi-line', { ignore: ['after-comment', 'first-nested'] }],
         'value-keyword-case': 'lower',
         'scss/at-import-partial-extension': null,
         'selector-class-pattern': ['^([a-z][a-z0-9]*)(-[a-z0-9]+)*(_[a-z0-9]+)*(__[a-z]((_|-)?[a-z0-9])*)?(--[a-z0-9]((_|-)?[a-z0-9\\\\\\/])*)?$', { resolveNestedSelectors: true }],
